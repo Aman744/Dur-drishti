@@ -249,6 +249,7 @@ h6 a,
   color: #6c7279;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   h1,
 .h1 {
@@ -16160,7 +16161,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
 }
 
 .header-four .echo-home-1-menu .echo-header-top-menu-bar a svg path {
-  fill: #FFFFFF;
+  fill: #000000;
 }
 
 .home-seven .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown ul.mega-menu,
@@ -16428,7 +16429,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   display: block !important;
 }
 .echo-header-area.header-four .echo-header-top {
-  background: #080F19;
+  background: #130832;
 }
 @media (max-width: 991px) {
   .echo-header-area.header-four .echo-header-top .echo-full-header-top {
@@ -16492,7 +16493,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   background: #FFFFFF;
 }
 .echo-header-area.header-four .echo-site-main-logo-menu-social {
-  background: #120832;
+  background: #ffffff;
 }
 .echo-header-area.header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown {
   color: #FFFFFF;
@@ -17056,13 +17057,16 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   border-top: 3px solid #120832;
 }
 .header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.menu-item .echo-dropdown-main-element {
-  color: #FFFFFF;
+  color: #000000;
+}
+.header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.menu-item .echo-dropdown-main-element:hover {
+  color: #000000 !important;
 }
 .header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown:hover a.echo-dropdown-main-element {
-  color: #FFFFFF;
+  color: #000000;
 }
 .header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.menu-item:hover .echo-dropdown-main-element {
-  color: #FFFFFF;
+  color: #000000;
 }
 .header-four .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown {
   color: #181823 !important;
