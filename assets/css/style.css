@@ -15959,7 +15959,7 @@ html[data-theme=dark] body.home-three .header-sticky .echo-site-main-logo-menu-s
   margin-top: -1px;
   padding: 15px;
   border-radius: 0;
-  width: max-content;
+  width: auto;
 }
 .echo-site-main-logo-menu-social ul.echo-desktop-menu li.echo-has-dropdown ul.echo-submenu .nav-item {
   position: relative;
