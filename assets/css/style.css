@@ -27865,11 +27865,11 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 }
 
 .echo-about-area {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .echo-about-area .container .echo-about-area-inner .content-area .title {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 60px;
   margin-bottom: 30px;
 }
@@ -27916,7 +27916,10 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
   position: relative;
 }
 .echo-about-area .container .echo-about-area-inner .hero-image .image {
-  width: 380px;
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex
 }
 .echo-about-area .container .echo-about-area-inner .hero-image .image img {
   width: 100%;
