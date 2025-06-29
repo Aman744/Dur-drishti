@@ -431,10 +431,11 @@ ol {
 }
 
 ul {
-  list-style: square;
+  list-style: disc;
   margin-bottom: 30px;
   padding-left: 20px;
 }
+
 ul.liststyle.bullet li {
   font-size: 18px;
   line-height: 30px;
@@ -10766,6 +10767,7 @@ a.pe-none {
 .img-transition-scale a img {
   transform: scale(100%);
   transition: all 0.4s;
+  width: 100%;
 }
 
 .home-three .img-transition-scale {
@@ -22298,9 +22300,10 @@ html[data-theme=dark] .echo-header-area.header-seven .echo-home-2-menu .echo-sit
 .echo-hero-section.inner-post .echo-quote-area .author {
   padding-left: 25px;
   position: relative;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 26px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .echo-hero-section.inner-post .echo-quote-area .author::before {
   content: "";
